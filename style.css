@@ -281,7 +281,7 @@ input[type=submit]:hover{
         flex-direction: row;
     }
     .middle{
-        margin-top: 5em;
+        margin-top: 6em;
     }
     .middle::before{
         content: '';
