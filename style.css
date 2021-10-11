@@ -35,7 +35,7 @@ body{
     margin: 0;
 }
 section{
-    padding: 4.0625em 0;
+    padding: 5em 0;
 }
 img{
     max-width: 100%;
@@ -73,7 +73,7 @@ input[type=submit]:hover{
 }
 /* Header Section*/
 .header{
-    padding: 2em 0;
+    padding: 3em 0;
 }
 .nav{
     display: flex;
@@ -241,8 +241,11 @@ input[type=submit]:hover{
 /* large screen */
 
 @media(min-width: 1024px){
+    h1{
+        font-size: 2rem;
+    }
     h2{
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     input[type=email]{
         margin-right: 1.5em;
